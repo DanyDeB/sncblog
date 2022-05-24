@@ -2,8 +2,8 @@ const { DateTime } = require("luxon");
 
 module.exports = function(elventyConfig) {
 
-    elventyConfig.addPassthroughCopy('./style.css');
-    elventyConfig.addPassthroughCopy('./assets')
+    elventyConfig.addPassthroughCopy('./src/style.css');
+    elventyConfig.addPassthroughCopy('./src/assets')
     
     elventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
@@ -11,7 +11,7 @@ module.exports = function(elventyConfig) {
     
     return {
         dir: {
-            input: "./",
+            input: "src",
             output: "public"
         }
     }
