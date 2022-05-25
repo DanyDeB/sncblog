@@ -1,7 +1,6 @@
 {
   "name": "src",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -9,12 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanyDeB/sncblog"
+    "url": "git+https://github.com/DanyDeB/sncblog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/DanyDeB/sncblog/issues"
+  },
+  "homepage": "https://github.com/DanyDeB/sncblog#readme",
+  "description": ""
 }

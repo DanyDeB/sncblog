@@ -22,6 +22,10 @@
   --clr-neutral-400: hsla(0, 0%, 40%, 1);
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
   --clr-neutral-900: hsla(0, 0%, 10%, 1);
+
+  --clr-new-100: hsl(0, 0%, 100%);
+  --clr-new-200: hsl(244, 12%, 25%);
+  --clr-new-300: hsl(245, 13%, 17%);
 }
 
 @media (min-width: 35em) {
@@ -362,14 +366,14 @@ section,
 }
 
 .btn--primary {
-  background: var(--clr-primary-400);
+  background: var(--clr-new-200);
   color: var(--clr-neutral-100);
   font-weight: var(--fw-700);
   border: 2px solid var(--clr-primary-400);
 }
 .btn--primary:hover,
 .btn--primary:focus {
-  background: var(--clr-primary-500);
+  background: var(--clr-new-300);
   border-color: var(--clr-primary-500); 
 }
 
